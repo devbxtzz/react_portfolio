@@ -1,0 +1,27 @@
+const Social = () => {
+  return (
+    <div className="social">
+      <h2>Socials</h2>
+      <div className="social-items">
+        <a href="gmail.com" className="button">
+          batztonnie@gmail.com
+        </a>
+        <a
+          href="https://twitter.com/devbxtzz"
+          target="_blank "
+          className="button"
+        >
+          Twitter
+        </a>
+        <a href="https://www.linkedin.com/batyatonny" className="button">
+          LinkedIn
+        </a>
+        <a href="https://github.com/devbxtzz" className="button">
+          GitHub
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Social;
