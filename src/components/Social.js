@@ -1,22 +1,35 @@
 const Social = () => {
   return (
     <div className="social">
-      <h2>Socials</h2>
+      <h2>Contact</h2>
       <div className="social-items">
-        <a href="gmail.com" className="button">
+        <a href="gmail.com" 
+        target="_blank " rel="noreferrer"
+        className="button">
           batztonnie@gmail.com
         </a>
         <a
           href="https://twitter.com/devbxtzz"
           target="_blank "
+          rel="noreferrer"
           className="button"
         >
           Twitter
         </a>
-        <a href="https://www.linkedin.com/batyatonny" className="button">
+        <a
+          href="https://www.linkedin.com/batyatonny"
+          target="_blank "
+          rel="noreferrer"
+          className="button"
+        >
           LinkedIn
         </a>
-        <a href="https://github.com/devbxtzz" className="button">
+        <a
+          href="https://github.com/devbxtzz"
+          target="_blank "
+          rel="noreferrer"
+          className="button"
+        >
           GitHub
         </a>
       </div>
